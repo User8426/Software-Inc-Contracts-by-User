@@ -1,6 +1,6 @@
 SoftwareType
 	{
-	Name			"ATM OS"
+	Name			"ATM OS Contract"
 	Category		Default
 	Description		"The thing needed to get cash from a wall"
 	Random			0.8
