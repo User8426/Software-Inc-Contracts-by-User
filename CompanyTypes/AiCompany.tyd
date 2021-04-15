@@ -1,13 +1,13 @@
 CompanyType
 	{
-	Specialization		"BIOS Makers"
+	Specialization		"BIOS Contract Makers"
 	PerYear			0.2
 	Min			1
 	Max			3
 	Types
 		[
 			{
-			Software	"BIOS"
+			Software	"BIOS Contract"
 			Chance		1
 			}
 		]
