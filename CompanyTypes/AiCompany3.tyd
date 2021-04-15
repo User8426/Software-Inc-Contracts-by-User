@@ -1,13 +1,13 @@
 CompanyType
 	{
-	Specialization		"ATM OS Makers"
+	Specialization		"ATM OS Contract Makers"
 	PerYear			0.2
 	Min			1
 	Max			3
 	Types
 		[
 			{
-			Software	"ATM OS"
+			Software	"ATM OS Contract"
 			Chance		1
 			}
 		]
