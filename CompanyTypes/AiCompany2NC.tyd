@@ -1,0 +1,15 @@
+
+CompanyType
+	{
+	Specialization		"Mod Makers"
+	PerYear			0.2
+	Min			1
+	Max			3
+	Types
+		[
+			{
+			Software	"Software Inc Mod"
+			Chance		1
+			}
+		]
+	}
