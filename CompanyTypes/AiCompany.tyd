@@ -1,13 +1,13 @@
 CompanyType
 	{
-	Specialization		"Mod Company"
+	Specialization		"BIOS Makers"
 	PerYear			0.2
-	Min			4
-	Max			8
+	Min			1
+	Max			3
 	Types
 		[
 			{
-			Software	"MOD SOFTWARE NAME"
+			Software	"BIOS"
 			Chance		1
 			}
 		]
