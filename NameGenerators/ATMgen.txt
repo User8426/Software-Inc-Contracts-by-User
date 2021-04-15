@@ -1,0 +1,15 @@
+-start(base)
+-base(base2,end,stop)
+Money OS
+Money Operating System
+OS for cash
+OS instead of talking to another human being
+Essential software for every day life.
+-base2(end,stop)
+Base edition
+Too much edition
+Speedy edition
+Let me install a cryptominer, edition
+Never gonna give you up, never gonna let you down edition
+-end(stop)
+.
