@@ -1,6 +1,6 @@
 SoftwareType
 	{
-	Name			"BIOS"
+	Name			"BIOS Contract"
 	Category		Default
 	Description		"The thing needed to start a computer"
 	Random			0.9845
