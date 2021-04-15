@@ -1,15 +1,15 @@
 SoftwareType
 	{
-	Name			"Software Inc Mod Contract"
+	Name			"ATM OS"
 	Category		Default
-	Description		"The thing needed to make the game have more stuff"
-	Random			0.345
+	Description		"The thing needed to get cash from a wall"
+	Random			0.8
 	IdealPrice		6
 	OptimalDevTime		8
 	OSSupport		Computer
 	OneClient		True
 	InHouse			True
-	SubmarketNames		[ Difficulty; Manufacturing; SoftwareTypes ]
+	SubmarketNames		[ EasyToUse; Security; Speed ]
 	Categories
 		[
 			{
@@ -20,7 +20,7 @@ SoftwareType
 			Retention		36
 			TimeScale		1
 			Iterative		0.40
-			NameGenerator		SWINCgen
+			NameGenerator		ATMgen
 			}
 		]
 	Features
@@ -28,7 +28,7 @@ SoftwareType
 			{
 			Name 		"Main files"
 			Spec		System
-			Description	"So .tyd, .txt etc"
+			Description	"So everything you need for cash out of a wall."
 			DevTime		1
 			CodeArt		1
 			Submarkets	[ 0; 0; 1 ]
