@@ -100,7 +100,7 @@ SoftwareType
 					Description	"So people who cant read as well or dont understand the langauge understand the idea better."
 					DevTime		4
 					Level		2
-					CodeArt		1
+					CodeArt		0.5
 					Submarkets	[ 0; 1; 0 ]
 					}
 				]
