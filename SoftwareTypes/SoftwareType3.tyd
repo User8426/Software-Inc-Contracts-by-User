@@ -4,8 +4,8 @@ SoftwareType
 	Category		Default
 	Description		"The thing needed to get cash from a wall"
 	Random			0.8
-	IdealPrice		6
-	OptimalDevTime		8
+	IdealPrice		108
+	OptimalDevTime		24
 	OSSupport		Computer
 	OneClient		True
 	InHouse			True
@@ -15,7 +15,7 @@ SoftwareType
 			{
 			Name			"Default"
 			Description		"Default Category."
-			Popularity		1
+			Popularity		0.2
 			Submarkets		[ 1; 1; 1 ]  
 			Retention		36
 			TimeScale		1
