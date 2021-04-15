@@ -1,0 +1,67 @@
+			Optional	True
+			Description	"Images"
+			DevTime		4
+			CodeArt		0.5
+			Submarkets	[ 0; 1; 3 ]
+                        Features
+				[
+					{
+					Name		"Logo"
+					Description	"So people know who made the really slow BIOS."
+					DevTime		2
+					Level		1
+					CodeArt		0.5
+					Submarkets	[ 0; 1; 1 ]
+					}
+					{
+					Name		"Icons"
+					Description	"So people who cant read as well or dont understand the langauge understand the idea better."
+					DevTime		4
+					Level		2
+					CodeArt		0.5
+					Submarkets	[ 0; 1; 0 ]
+					}
+				]
+			}
+                        {
+			Name 		"Network"
+			Spec		Network
+			Optional	True
+			Description	"You know networking and updates and stuff."
+			DevTime		4
+			CodeArt		1
+			Submarkets	[ 0; 1; 1 ]
+			Server		0.005
+                        Features
+				[
+					{
+					Name		"Auto updates"
+					Description	"Auto update BIOS"
+					DevTime		3
+					Level		1
+					CodeArt		1
+					Submarkets	[ 1; 1; 0 ]
+					Server          0.005
+					}
+					{
+					Name		"Auto driver updates"
+					Description	"Auto update those drivers."
+					DevTime		3
+					Level		2
+					CodeArt		1
+					Submarkets	[ 1; 1; 0 ]
+					Server          0.005
+					}
+				]
+			}
+                        {
+      			Name 		"Hardware Utilisation"
+			Spec		Hardware
+			Optional	True
+			Description	"Effectively use hardware"
+			DevTime		4
+			CodeArt		1
+			Submarkets	[ 1; 1; 1 ]
+			}
+		]
+	}
