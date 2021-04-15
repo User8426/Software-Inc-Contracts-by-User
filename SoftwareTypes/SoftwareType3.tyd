@@ -35,52 +35,36 @@ SoftwareType
 			Features
 				[
 					{
-					Name		"Software types range of feats"
-					Description	"Add a range of features"
+					Name		"256 SHA Security stuff"
+					Description	"Advanced Security. Just hope quantum computers dont start hacking us, oh wait a sec..."
 					DevTime		2
 					Level		1
-					CodeArt		1
-					Submarkets	[ 0; 0; 1 ]
-					}
-					{
-					Name		"Software types range of subfeats"
-					Description	"Add a range of subfeatures"
-					DevTime		2
-					Level		1
-					CodeArt		1
-					Submarkets	[ 0; 0; 1 ]
-					}
-					{
-					Name		"Software types range of dependencies"
-					Description	"Add a range of features"
-					DevTime		2
-					Level		1
-					CodeArt		1
-					Submarkets	[ 0; 0; 1 ]
-					}
-					{
-					Name		"Manufacturing"
-					Description	"Maybe dont add too much."
-					DevTime		3
-					Level		2
 					CodeArt		1
 					Submarkets	[ 0; 1; 0 ]
 					}
 					{
-					Name		"More base game company types"
-					Description	"To increase difficulty"
-					DevTime		3
-					Level		2
+					Name		"Translation"
+					Description	"Translates text to multiple languages"
+					DevTime		2
+					Level		1
 					CodeArt		1
 					Submarkets	[ 1; 0; 0 ]
 					}
 					{
-					Name		"More company types"
-					Description	"To increase difficulty"
+					Name		"Uncomplicated screens"
+					Description	"Reduce how complex they are"
+					DevTime		2
+					Level		1
+					CodeArt		1
+					Submarkets	[ 1; 0; 0 ]
+					}
+					{
+					Name		"Code optimizations"
+					Description	"SPEED AND CODE"
 					DevTime		3
 					Level		2
 					CodeArt		1
-					Submarkets	[ 1; 0; 0 ]
+					Submarkets	[ 0; 0; 1 ]
 					}
 				]
 			}
