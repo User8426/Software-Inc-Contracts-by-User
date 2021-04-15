@@ -1,0 +1,149 @@
+SoftwareType
+	{
+	Name			"ATM OS"
+	Category		Default
+	Description		"The thing needed to get cash from a wall"
+	Random			0.8
+	IdealPrice		108
+	OptimalDevTime		24
+	OSSupport		Computer
+	OneClient		True
+	InHouse			True
+	SubmarketNames		[ EasyToUse; Security; Speed ]
+	Categories
+		[
+			{
+			Name			"Default"
+			Description		"Default Category."
+			Popularity		0.2
+			Submarkets		[ 1; 1; 1 ]  
+			Retention		36
+			TimeScale		1
+			Iterative		0.40
+			NameGenerator		ATMgen
+			}
+		]
+	Features
+		[
+			{
+			Name 		"Main files"
+			Spec		System
+			Description	"So everything you need for cash out of a wall."
+			DevTime		1
+			CodeArt		1
+			Submarkets	[ 1; 1; 1 ]
+			Features
+				[
+					{
+					Name		"256 SHA Security stuff"
+					Description	"Advanced Security. Just hope quantum computers dont start hacking us, oh wait a sec..."
+					DevTime		2
+					Level		1
+					CodeArt		1
+					Submarkets	[ 0; 1; 0 ]
+					}
+					{
+					Name		"Translation"
+					Description	"Translates text to multiple languages"
+					DevTime		2
+					Level		1
+					CodeArt		1
+					Submarkets	[ 1; 0; 0 ]
+					}
+					{
+					Name		"Uncomplicated screens"
+					Description	"Reduce how complex they are"
+					DevTime		2
+					Level		1
+					CodeArt		1
+					Submarkets	[ 1; 0; 0 ]
+					}
+					{
+					Name		"Code optimizations"
+					Description	"SPEED AND CODE"
+					DevTime		3
+					Level		2
+					CodeArt		1
+					Submarkets	[ 0; 0; 1 ]
+					}
+				]
+			}
+                        {
+			Name 		"2D Art"
+			Spec		2D
+			Dependencies	"2D Editor"
+			Optional	True
+			Description	"Images"
+			DevTime		4
+			CodeArt		0.5
+			Submarkets	[ 0; 1; 3 ]
+                        Features
+				[
+					{
+					Name		"Custom background"
+					Description	"Dont you hate looking at WHITE BACKGROUNDS ALL THE TIME.."
+					DevTime		4
+					Level		2
+					CodeArt		0.8
+					Submarkets	[ 1; 0; 0 ]
+					}
+					{
+					Name		"Different notes for different countries, images"
+					Description	"Only seems like a good idea to me."
+					DevTime		4
+					Level		2
+					CodeArt		0.6
+					Submarkets	[ 1; 0; 0 ]
+					}
+				]
+			}
+		        {
+			Name 		"Network"
+			Spec		Network
+			Description	"You know networking and updates and stuff but most importantly, so money can be taken from banks.."
+			DevTime		4
+			CodeArt		1
+			Submarkets	[ 0; 1; 1 ]
+			Server		0.01
+                        Features
+				[
+					{
+					Name		"Auto updates"
+					Description	"Auto update the OS"
+					DevTime		3
+					Level		2
+					CodeArt		1
+					Submarkets	[ 0; 1; 1 ]
+					Server          0.005
+					}
+					{
+					Name		"Compression"
+					Description	"Makes payments quicker"
+					DevTime		3
+					Level		1
+					CodeArt		1
+					Submarkets	[ 0; 0; 1 ]
+					Server          0.01
+					}
+					{
+					Name		"Auto driver updates"
+					Description	"Auto update those drivers."
+					DevTime		3
+					Level		2
+					CodeArt		1
+					Submarkets	[ 1; 1; 1 ]
+					Server          0.005
+					}
+				]
+			}
+                        {
+      			Name 		"Hardware Utilisation"
+			Spec		Hardware
+			Optional	True
+			Description	"Effectively use hardware"
+			DevTime		4
+			CodeArt		1
+			Submarkets	[ 1; 1; 1 ]
+			}
+		]
+	}
