@@ -31,7 +31,7 @@ SoftwareType
 			Description	"So everything you need for cash out of a wall."
 			DevTime		1
 			CodeArt		1
-			Submarkets	[ 0; 0; 1 ]
+			Submarkets	[ 1; 1; 1 ]
 			Features
 				[
 					{
@@ -96,14 +96,70 @@ SoftwareType
                         Features
 				[
 					{
-					Name		"Manufacturing Icons"
-					Description	"So people who cant read as well or dont understand the langauge understand the idea better."
+					Name		"Custom background"
+					Description	"Dont you hate looking at WHITE BACKGROUNDS ALL THE TIME.."
 					DevTime		4
 					Level		2
-					CodeArt		1
-					Submarkets	[ 0; 1; 0 ]
+					CodeArt		0.8
+					Submarkets	[ 1; 0; 0 ]
+					}
+					{
+					Name		"Different notes for different countries, images"
+					Description	"Only seems like a good idea to me."
+					DevTime		4
+					Level		2
+					CodeArt		0.6
+					Submarkets	[ 1; 0; 0 ]
 					}
 				]
+			}
+		        {
+			Name 		"Network"
+			Spec		Network
+			Description	"You know networking and updates and stuff but most importantly, so money can be taken from banks.."
+			DevTime		4
+			CodeArt		1
+			Submarkets	[ 0; 1; 1 ]
+			Server		0.01
+                        Features
+				[
+					{
+					Name		"Auto updates"
+					Description	"Auto update the OS"
+					DevTime		3
+					Level		2
+					CodeArt		1
+					Submarkets	[ 0; 1; 1 ]
+					Server          0.005
+					}
+					{
+					Name		"Compression"
+					Description	"Makes payments quicker"
+					DevTime		3
+					Level		1
+					CodeArt		1
+					Submarkets	[ 0; 0; 1 ]
+					Server          0.01
+					}
+					{
+					Name		"Auto driver updates"
+					Description	"Auto update those drivers."
+					DevTime		3
+					Level		2
+					CodeArt		1
+					Submarkets	[ 1; 1; 1 ]
+					Server          0.005
+					}
+				]
+			}
+                        {
+      			Name 		"Hardware Utilisation"
+			Spec		Hardware
+			Optional	True
+			Description	"Effectively use hardware"
+			DevTime		4
+			CodeArt		1
+			Submarkets	[ 1; 1; 1 ]
 			}
 		]
 	}
