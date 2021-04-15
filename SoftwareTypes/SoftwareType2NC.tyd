@@ -1,0 +1,109 @@
+SoftwareType
+	{
+	Name			"Software Inc Mod"
+	Category		Default
+	Description		"The thing needed to make the game have more stuff"
+	Random			0.345
+	IdealPrice		6
+	OptimalDevTime		8
+	OSSupport		Computer
+	OneClient		True
+	InHouse			True
+	SubmarketNames		[ Difficulty; Manufacturing; SoftwareTypes ]
+	Categories
+		[
+			{
+			Name			"Default"
+			Description		"Default Category."
+			Popularity		0.5
+			Submarkets		[ 1; 1; 1 ]  
+			Retention		36
+			TimeScale		1
+			Iterative		0.40
+			NameGenerator		SWINCgen
+			}
+		]
+	Features
+		[
+			{
+			Name 		"Main files"
+			Spec		System
+			Description	"So .tyd, .txt etc"
+			DevTime		1
+			CodeArt		1
+			Submarkets	[ 0; 0; 1 ]
+			Features
+				[
+					{
+					Name		"Software types range of feats"
+					Description	"Add a range of features"
+					DevTime		2
+					Level		1
+					CodeArt		1
+					Submarkets	[ 0; 0; 1 ]
+					}
+					{
+					Name		"Software types range of subfeats"
+					Description	"Add a range of subfeatures"
+					DevTime		2
+					Level		1
+					CodeArt		1
+					Submarkets	[ 0; 0; 1 ]
+					}
+					{
+					Name		"Software types range of dependencies"
+					Description	"Add a range of features"
+					DevTime		2
+					Level		1
+					CodeArt		1
+					Submarkets	[ 0; 0; 1 ]
+					}
+					{
+					Name		"Manufacturing"
+					Description	"Maybe dont add too much."
+					DevTime		3
+					Level		2
+					CodeArt		1
+					Submarkets	[ 0; 1; 0 ]
+					}
+					{
+					Name		"More base game company types"
+					Description	"To increase difficulty"
+					DevTime		3
+					Level		2
+					CodeArt		1
+					Submarkets	[ 1; 0; 0 ]
+					}
+					{
+					Name		"More company types"
+					Description	"To increase difficulty"
+					DevTime		3
+					Level		2
+					CodeArt		1
+					Submarkets	[ 1; 0; 0 ]
+					}
+				]
+			}
+                        {
+			Name 		"2D Art"
+			Spec		2D
+			Dependencies	"2D Editor"
+			Optional	True
+			Description	"Images"
+			DevTime		4
+			CodeArt		0.5
+			Submarkets	[ 0; 1; 3 ]
+                        Features
+				[
+					{
+					Name		"Manufacturing Icons"
+					Description	"So people who cant read as well or dont understand the langauge understand the idea better."
+					DevTime		4
+					Level		2
+					CodeArt		0.5
+					Submarkets	[ 0; 1; 0 ]
+					}
+				]
+			}
+		]
+	}
