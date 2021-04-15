@@ -1,15 +1,15 @@
 SoftwareType
 	{
-	Name			"2"
+	Name			"Software Inc Mod Contract"
 	Category		Default
-	Description		"The thing needed to start a computer"
-	Random			0.9845
-	IdealPrice		20
-	OptimalDevTime		24
+	Description		"The thing needed to make the game have more stuff"
+	Random			0.345
+	IdealPrice		6
+	OptimalDevTime		8
 	OSSupport		Computer
 	OneClient		True
 	InHouse			True
-	SubmarketNames		[ Speed; Usability; Stuff ]
+	SubmarketNames		[ Difficulty; Manufacturing; SoftwareTypes ]
 	Categories
 		[
 			{
@@ -20,35 +20,67 @@ SoftwareType
 			Retention		36
 			TimeScale		1
 			Iterative		0.40
-			NameGenerator		biosgen
+			NameGenerator		SWINCgen
 			}
 		]
 	Features
 		[
 			{
-			Name 		"Main system stuff"
+			Name 		"Main files"
 			Spec		System
-			Description	"So what a bios would do"
-			DevTime		12
+			Description	"So .tyd, .txt etc"
+			DevTime		1
 			CodeArt		1
-			Submarkets	[ 1; 0; 1 ]#50%, 0%, 50%
+			Submarkets	[ 0; 0; 1 ]
 			Features
 				[
 					{
-					Name		"Optimizations"
-					Description	"Speeds it all up"
-					DevTime		6
+					Name		"Software types range of feats"
+					Description	"Add a range of features"
+					DevTime		2
 					Level		1
 					CodeArt		1
-					Submarkets	[ 1; 1; 0 ]
+					Submarkets	[ 0; 0; 1 ]
 					}
 					{
-					Name		"Menu"
+					Name		"Software types range of subfeats"
+					Description	"Add a range of subfeatures"
+					DevTime		2
+					Level		1
+					CodeArt		1
+					Submarkets	[ 0; 0; 1 ]
+					}
+					{
+					Name		"Software types range of dependencies"
+					Description	"Add a range of features"
+					DevTime		2
+					Level		1
+					CodeArt		1
+					Submarkets	[ 0; 0; 1 ]
+					}
+					{
+					Name		"Manufacturing"
 					Description	"Maybe dont add too much."
-					DevTime		4
+					DevTime		3
 					Level		2
 					CodeArt		1
-					Submarkets	[ 0; 1; 1 ]
+					Submarkets	[ 0; 1; 0 ]
+					}
+					{
+					Name		"More base game company types"
+					Description	"To increase difficulty"
+					DevTime		3
+					Level		2
+					CodeArt		1
+					Submarkets	[ 1; 0; 0 ]
+					}
+					{
+					Name		"More company types"
+					Description	"To increase difficulty"
+					DevTime		3
+					Level		2
+					CodeArt		1
+					Submarkets	[ 1; 0; 0 ]
 					}
 				]
 			}
@@ -64,62 +96,14 @@ SoftwareType
                         Features
 				[
 					{
-					Name		"Logo"
-					Description	"So people know who made the really slow BIOS."
-					DevTime		2
-					Level		1
-					CodeArt		1
-					Submarkets	[ 0; 1; 1 ]
-					}
-					{
-					Name		"Icons"
-					Description	"So people who cant read as well or dont understand the kangauge understand the idea better."
+					Name		"Manufacturing Icons"
+					Description	"So people who cant read as well or dont understand the langauge understand the idea better."
 					DevTime		4
 					Level		2
 					CodeArt		1
 					Submarkets	[ 0; 1; 0 ]
 					}
 				]
-			}
-                        {
-			Name 		"Network"
-			Spec		Network
-			Optional	True
-			Description	"You know networking and updates and stuff."
-			DevTime		4
-			CodeArt		1
-			Submarkets	[ 0; 1; 1 ]
-			Server		0.005
-                        Features
-				[
-					{
-					Name		"Auto updates"
-					Description	"Auto update BIOS"
-					DevTime		3
-					Level		1
-					CodeArt		1
-					Submarkets	[ 1; 1; 0 ]
-					Server          0.005
-					}
-					{
-					Name		"Auto driver updates"
-					Description	"Auto update those drivers."
-					DevTime		3
-					Level		2
-					CodeArt		1
-					Submarkets	[ 1; 1; 0 ]
-					Server          0.005
-					}
-				]
-			}
-                        {
-      			Name 		"Hardware Utilisation"
-			Spec		Hardware
-			Optional	True
-			Description	"Effectively use hardware"
-			DevTime		4
-			CodeArt		1
-			Submarkets	[ 1; 1; 1 ]
 			}
 		]
 	}
