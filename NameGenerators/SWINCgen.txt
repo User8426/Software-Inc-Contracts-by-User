@@ -1,0 +1,15 @@
+-start(base)
+-base(base2,end,stop)
+SWINC Mod
+Software Inc Mod
+The creators of software, in a simulaton
+Software Matrix
+Essential software creation mod kit
+-base2(end,stop)
+Base edition
+Too much edition
+Speedy edition
+Let me install a cryptominer, edition
+Never gonna give you up, never gonna let you down edition
+-end(stop)
+.
