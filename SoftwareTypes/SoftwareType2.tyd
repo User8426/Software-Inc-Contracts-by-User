@@ -15,7 +15,7 @@ SoftwareType
 			{
 			Name			"Default"
 			Description		"Default Category."
-			Popularity		1
+			Popularity		0.5
 			Submarkets		[ 1; 1; 1 ]  
 			Retention		36
 			TimeScale		1
