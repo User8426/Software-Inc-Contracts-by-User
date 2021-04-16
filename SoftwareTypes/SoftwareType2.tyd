@@ -51,8 +51,8 @@ SoftwareType
 					Submarkets	[ 0; 0; 1 ]
 					}
 					{
-					Name		"Software types range of dependencies"
-					Description	"Add a range of features"
+					Name		"More Dependencies"
+					Description	"Add a range of dependencies"
 					DevTime		2
 					Level		1
 					CodeArt		1
