@@ -6,7 +6,7 @@ SoftwareType
 	Random			0.6
 	IdealPrice		40
 	OptimalDevTime		24
-	OneClient		False
+	OneClient		True
 	InHouse			True
 	SubmarketNames		[ Channels; Security; Speed ]
 	Categories
