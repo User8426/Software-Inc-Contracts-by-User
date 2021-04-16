@@ -1,3 +1,60 @@
+SoftwareType
+	{
+	Name			"BIOS"
+	Category		Default
+	Description		"The thing needed to start a computer"
+	Random			0.9845
+	IdealPrice		20
+	OptimalDevTime		24
+	OneClient		False
+	InHouse			True
+	SubmarketNames		[ Speed; Usability; Stuff ]
+	Categories
+		[
+			{
+			Name			"Default"
+			Description		"Default Category."
+			Popularity		1
+			Submarkets		[ 1; 1; 1 ]  
+			Retention		36
+			TimeScale		1
+			Iterative		0.40
+			NameGenerator		biosgen
+			}
+		]
+	Features
+		[
+			{
+			Name 		"Main system stuff"
+			Spec		System
+			Description	"So what a bios would do"
+			DevTime		12
+			CodeArt		1
+			Submarkets	[ 1; 0; 1 ]#50%, 0%, 50%
+			Features
+				[
+					{
+					Name		"Optimizations"
+					Description	"Speeds it all up"
+					DevTime		6
+					Level		1
+					CodeArt		1
+					Submarkets	[ 1; 1; 0 ]
+					}
+					{
+					Name		"Menu"
+					Description	"Maybe dont add too much."
+					DevTime		4
+					Level		2
+					CodeArt		1
+					Submarkets	[ 0; 1; 1 ]
+					}
+				]
+			}
+                        {
+			Name 		"2D Art"
+			Spec		2D
+			Dependencies	"2D Editor"
 			Optional	True
 			Description	"Images"
 			DevTime		4
