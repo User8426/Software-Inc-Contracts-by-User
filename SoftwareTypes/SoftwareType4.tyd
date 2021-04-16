@@ -1,12 +1,11 @@
 SoftwareType
 	{
-	Name			"NAME"
+	Name			"Card Software"
 	Category		Default
-	Description		"The thing needed to get cash from a wall"
-	Random			0.8
-	IdealPrice		108
+	Description		"The thing needed to get cash from a wall machine, or an ATM"
+	Random			0.4
+	IdealPrice		18
 	OptimalDevTime		24
-	OSSupport		Computer
 	OneClient		True
 	InHouse			True
 	SubmarketNames		[ EasyToUse; Security; Speed ]
@@ -15,12 +14,12 @@ SoftwareType
 			{
 			Name			"Default"
 			Description		"Default Category."
-			Popularity		0.2
+			Popularity		0.9
 			Submarkets		[ 1; 1; 1 ]  
 			Retention		36
 			TimeScale		1
-			Iterative		0.40
-			NameGenerator		ATMgen
+			Iterative		0.9
+			NameGenerator		CARDgen
 			}
 		]
 	Features
@@ -28,35 +27,19 @@ SoftwareType
 			{
 			Name 		"Main files"
 			Spec		System
-			Description	"So everything you need for cash out of a wall."
+			Description	"So everything you need for it to work"
 			DevTime		1
 			CodeArt		1
 			Submarkets	[ 1; 1; 1 ]
 			Features
 				[
 					{
-					Name		"256 SHA Security stuff"
-					Description	"Advanced Security. Just hope quantum computers dont start hacking us, oh wait a sec..."
+					Name		"256 SHA Security Encryption"
+					Description	"Advanced Security to encrypt it."
 					DevTime		2
 					Level		1
 					CodeArt		1
 					Submarkets	[ 0; 1; 0 ]
-					}
-					{
-					Name		"Translation"
-					Description	"Translates text to multiple languages"
-					DevTime		2
-					Level		1
-					CodeArt		1
-					Submarkets	[ 1; 0; 0 ]
-					}
-					{
-					Name		"Uncomplicated screens"
-					Description	"Reduce how complex they are"
-					DevTime		2
-					Level		1
-					CodeArt		1
-					Submarkets	[ 1; 0; 0 ]
 					}
 					{
 					Name		"Code optimizations"
@@ -80,59 +63,20 @@ SoftwareType
                         Features
 				[
 					{
-					Name		"Custom background"
-					Description	"Dont you hate looking at WHITE BACKGROUNDS ALL THE TIME.."
+					Name		"Multiple themes"
+					Description	"Make it look nice"
 					DevTime		4
 					Level		2
 					CodeArt		0.8
 					Submarkets	[ 1; 0; 0 ]
 					}
 					{
-					Name		"Different notes for different countries, images"
-					Description	"Only seems like a good idea to me."
+					Name		"Translation for consumers who dont know the language can understand."
+					Description	"Makes it easier to be understood"
 					DevTime		4
 					Level		2
 					CodeArt		0.6
-					Submarkets	[ 1; 0; 0 ]
-					}
-				]
-			}
-		        {
-			Name 		"Network"
-			Spec		Network
-			Description	"You know networking and updates and stuff but most importantly, so money can be taken from banks.."
-			DevTime		4
-			CodeArt		1
-			Submarkets	[ 0; 1; 1 ]
-			Server		0.01
-                        Features
-				[
-					{
-					Name		"Auto updates"
-					Description	"Auto update the OS"
-					DevTime		3
-					Level		2
-					CodeArt		1
-					Submarkets	[ 0; 1; 1 ]
-					Server          0.005
-					}
-					{
-					Name		"Compression"
-					Description	"Makes payments quicker"
-					DevTime		3
-					Level		1
-					CodeArt		1
-					Submarkets	[ 0; 0; 1 ]
-					Server          0.01
-					}
-					{
-					Name		"Auto driver updates"
-					Description	"Auto update those drivers."
-					DevTime		3
-					Level		2
-					CodeArt		1
-					Submarkets	[ 1; 1; 1 ]
-					Server          0.005
+					Submarkets	[ 1; 0; 1 ]
 					}
 				]
 			}
@@ -141,9 +85,20 @@ SoftwareType
 			Spec		Hardware
 			Optional	True
 			Description	"Effectively use hardware"
-			DevTime		4
+			DevTime		6
 			CodeArt		1
 			Submarkets	[ 1; 1; 1 ]
+			Features 
+				[
+					{
+					Name		"Chip"
+					Description	"More secure way of communication."
+					DevTime		2
+					Level		1
+					CodeArt		1
+					Submarkets	[ 0; 1; 1 ]
+					}
+				]
 			}
 		]
 	}
