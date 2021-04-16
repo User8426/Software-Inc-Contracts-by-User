@@ -7,7 +7,7 @@ SoftwareType
 	IdealPrice		108
 	OptimalDevTime		24
 	OSSupport		Computer
-	OneClient		True
+	OneClient		False
 	InHouse			True
 	SubmarketNames		[ EasyToUse; Security; Speed ]
 	Categories
