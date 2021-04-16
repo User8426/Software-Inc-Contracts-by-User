@@ -1,0 +1,148 @@
+SoftwareType
+	{
+	Name			"TV OS"
+	Category		Default
+	Description		"The thing needed to watch shows on TV"
+	Random			0.6
+	IdealPrice		40
+	OptimalDevTime		24
+	OneClient	  False
+	InHouse			True
+	SubmarketNames		[ Channels; Security; Speed ]
+	Categories
+		[
+			{
+			Name			"Default"
+			Description		"Default Category."
+			Popularity		0.8
+			Submarkets		[ 1; 1; 1 ]  
+			Retention		36
+			TimeScale		1
+			Iterative		0.40
+			NameGenerator		TVgen
+			}
+		]
+	Features
+		[
+			{
+			Name 		"Main files"
+			Spec		System
+			Description	"So everything you need for some channels"
+			DevTime		1
+			CodeArt		1
+			Submarkets	[ 1; 1; 1 ]
+			Features
+				[
+					{
+					Name		"Extra channels"
+					Description	"Add some extra channels."
+					DevTime		2
+					Level		1
+					CodeArt		1
+					Submarkets	[ 1; 0; 0 ]
+					}
+					{
+					Name		"Catch Up
+					Description	"Watch any missed programmes"
+					DevTime		2
+					Level		1
+					CodeArt		1
+					Submarkets	[ 1; 0; 0 ]
+					}
+					{
+					Name		"VPN for tv show signals"
+					Description	"Reduce chance of spies. Hopefully not Two Spies."
+					DevTime		2
+					Level		1
+					CodeArt		1
+					Submarkets	[ 0; 1; 0 ]
+					}
+					{
+					Name		"Code optimizations"
+					Description	"SPEED AND CODE"
+					DevTime		3
+					Level		2
+					CodeArt		1
+					Submarkets	[ 0; 0; 1 ]
+					}
+				]
+			}
+                        {
+			Name 		"2D Art"
+			Spec		2D
+			Dependencies	"2D Editor"
+			Optional	True
+			Description	"Images"
+			DevTime		4
+			CodeArt		0.5
+			Submarkets	[ 0; 0; 1 ]
+                        Features
+				[
+					{
+					Name		"Icons"
+					Description	"So we have a reason for large boxes."
+					DevTime		4
+					Level		2
+					CodeArt		0.8
+					Submarkets	[ 0; 0; 1 ]
+					}
+					{
+					Name		"PIP"
+					Description	"Screen and a screen in a screen. Is this The Matrix?"
+					DevTime		10
+					Level		2
+					CodeArt		0.8
+					Submarkets	[ 1; 0; 1 ]
+					}
+				]
+			}
+		        {
+			Name 		"Network"
+			Spec		Network
+			Description	"You know networking and updates and stuff but most importantly, so money can be taken from banks.."
+			DevTime		4
+			CodeArt		1
+			Submarkets	[ 0; 1; 1 ]
+			Server		0.01
+                        Features
+				[
+					{
+					Name		"Auto updates"
+					Description	"Auto update the OS"
+					DevTime		3
+					Level		2
+					CodeArt		1
+					Submarkets	[ 0; 1; 1 ]
+					Server          0.005
+					}
+					{
+					Name		"Compression"
+					Description	"Makes channels on the interner load quicker"
+					DevTime		3
+					Level		1
+					CodeArt		1
+					Submarkets	[ 0; 0; 1 ]
+					Server          0.01
+					}
+					{
+					Name		"Auto driver updates"
+					Description	"Auto update those drivers."
+					DevTime		3
+					Level		2
+					CodeArt		1
+					Submarkets	[ 1; 1; 1 ]
+					Server          0.005
+					}
+				]
+			}
+                        {
+      			Name 		"Hardware Utilisation"
+			Spec		Hardware
+			Optional	True
+			Description	"Effectively use hardware"
+			DevTime		4
+			CodeArt		1
+			Submarkets	[ 1; 1; 1 ]
+			}
+		]
+	}
