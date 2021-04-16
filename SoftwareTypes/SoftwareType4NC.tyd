@@ -1,0 +1,104 @@
+SoftwareType
+	{
+	Name			"Card Software"
+	Category		Default
+	Description		"The thing needed to get cash from a wall machine, or an ATM"
+	Random			0.4
+	IdealPrice		18
+	OptimalDevTime		24
+	OneClient		False
+	InHouse			False
+	SubmarketNames		[ EasyToUse; Security; Speed ]
+	Categories
+		[
+			{
+			Name			"Default"
+			Description		"Default Category."
+			Popularity		0.9
+			Submarkets		[ 1; 1; 1 ]  
+			Retention		36
+			TimeScale		1
+			Iterative		0.9
+			NameGenerator		CARDgen
+			}
+		]
+	Features
+		[
+			{
+			Name 		"Main files"
+			Spec		System
+			Description	"So everything you need for it to work"
+			DevTime		1
+			CodeArt		1
+			Submarkets	[ 1; 1; 1 ]
+			Features
+				[
+					{
+					Name		"256 SHA Security Encryption"
+					Description	"Advanced Security to encrypt it."
+					DevTime		2
+					Level		1
+					CodeArt		1
+					Submarkets	[ 0; 1; 0 ]
+					}
+					{
+					Name		"Code optimizations"
+					Description	"SPEED AND CODE"
+					DevTime		3
+					Level		2
+					CodeArt		1
+					Submarkets	[ 0; 0; 1 ]
+					}
+				]
+			}
+                        {
+			Name 		"2D Art"
+			Spec		2D
+			Dependencies	"2D Editor"
+			Optional	True
+			Description	"Images"
+			DevTime		4
+			CodeArt		0.5
+			Submarkets	[ 0; 1; 3 ]
+                        Features
+				[
+					{
+					Name		"Multiple themes"
+					Description	"Make it look nice"
+					DevTime		4
+					Level		2
+					CodeArt		0.8
+					Submarkets	[ 1; 0; 0 ]
+					}
+					{
+					Name		"Translation for consumers who dont know the language can understand."
+					Description	"Makes it easier to be understood"
+					DevTime		4
+					Level		2
+					CodeArt		0.6
+					Submarkets	[ 1; 0; 1 ]
+					}
+				]
+			}
+                        {
+      			Name 		"Hardware Utilisation"
+			Spec		Hardware
+			Optional	True
+			Description	"Effectively use hardware"
+			DevTime		6
+			CodeArt		1
+			Submarkets	[ 1; 1; 1 ]
+			Features 
+				[
+					{
+					Name		"Chip"
+					Description	"More secure way of communication."
+					DevTime		2
+					Level		1
+					CodeArt		1
+					Submarkets	[ 0; 1; 1 ]
+					}
+				]
+			}
+		]
+	}
