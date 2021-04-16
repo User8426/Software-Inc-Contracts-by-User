@@ -99,7 +99,7 @@ SoftwareType
 		        {
 			Name 		"Network"
 			Spec		Network
-			Description	"You know networking and updates and stuff but most importantly, so money can be taken from banks.."
+			Description	"You know networking and updates and stuff but most importantly, so data can be obtainned in new ways."
 			DevTime		4
 			CodeArt		1
 			Submarkets	[ 0; 1; 1 ]
