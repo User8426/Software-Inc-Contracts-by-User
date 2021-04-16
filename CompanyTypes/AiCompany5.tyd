@@ -1,0 +1,14 @@
+CompanyType
+	{
+	Specialization		"TV OS Contract Makers"
+	PerYear			0.2
+	Min			1
+	Max			3
+	Types
+		[
+			{
+			Software	"TV OS Contract"
+			Chance		1
+			}
+		]
+	}
