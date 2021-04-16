@@ -1,6 +1,6 @@
 SoftwareType
 	{
-	Name			"Card Software"
+	Name			"Card Software Contract"
 	Category		Default
 	Description		"The thing needed to get cash from a wall machine, or an ATM"
 	Random			0.4
