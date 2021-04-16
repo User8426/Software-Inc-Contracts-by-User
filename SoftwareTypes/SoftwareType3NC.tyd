@@ -6,7 +6,6 @@ SoftwareType
 	Random			0.8
 	IdealPrice		108
 	OptimalDevTime		24
-	OSSupport		Computer
 	OneClient		False
 	InHouse			True
 	SubmarketNames		[ EasyToUse; Security; Speed ]
