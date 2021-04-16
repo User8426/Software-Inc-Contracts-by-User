@@ -1,6 +1,6 @@
 SoftwareType
 	{
-	Name			"TV OS"
+	Name			"TV OS Contract"
 	Category		Default
 	Description		"The thing needed to watch shows on TV"
 	Random			0.5
