@@ -5,4 +5,7 @@ To place this game, move the folder inside of the zip to the Mods folder inside 
 
 If you would like to play without the software types as developable software, go to the SoftwareTypes folder inside the folder for this mod and delete all files that have NC in the file name.
 
-If you would like to play with the software types but not the contracts, go to the SoftwareTypes folder inside the folder for this mos and delete all files that don't have NC in the file name.
+If you would like to play with the software types but not the contracts, go to the SoftwareTypes folder inside the folder for this mod and delete all files that don't have NC in the file name.
+
+Special Thanks
+CF#4937 - Suggesting mod and testing
