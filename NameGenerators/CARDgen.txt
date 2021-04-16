@@ -1,0 +1,15 @@
+-start(base)
+-base(base2,end,stop)
+Money Card
+Money Debit Card
+Money Credit Card
+Card for cash
+Card instead of giving cash to another person
+Essential software for every day life.
+-base2(end,stop)
+Base edition
+Too much edition
+Speedy edition
+Never gonna give you up, never gonna let you down edition
+-end(stop)
+.
