@@ -1,0 +1,11 @@
+-start(base)
+-base(base2,end,stop)
+5 Lines
+-base2(end,stop)
+Base edition
+Too much edition
+Speedy edition
+Let me install a cryptominer, edition
+Never gonna give you up, never gonna let you down edition
+-end(stop)
+.
