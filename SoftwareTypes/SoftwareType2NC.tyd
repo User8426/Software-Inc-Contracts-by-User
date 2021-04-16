@@ -7,7 +7,7 @@ SoftwareType
 	IdealPrice		6
 	OptimalDevTime		8
 	OSSupport		Computer
-	OneClient		True
+	OneClient		False
 	InHouse			True
 	SubmarketNames		[ Difficulty; Manufacturing; SoftwareTypes ]
 	Categories
