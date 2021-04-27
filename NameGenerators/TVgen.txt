@@ -1,6 +1,10 @@
 -start(base)
 -base(base2,end,stop)
-5 Lines
+GL
+LUKOR
+TV
+TeleVision
+Picture And Sound Machine
 -base2(end,stop)
 Base edition
 Too much edition
